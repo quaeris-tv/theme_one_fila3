@@ -10,7 +10,9 @@ use Modules\Xot\Providers\XotBaseThemeServiceProvider;
 class OneServiceProvider extends XotBaseThemeServiceProvider
 {
     public string $dir = __DIR__;
+
     public string $name = 'One';
+
     public string $ns = 'pub_theme';
     /*
     public $blade_components = [
