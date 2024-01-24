@@ -12,6 +12,21 @@
             x-transition.opacity.300ms
             class="fi-sidebar-close-overlay fixed inset-0 z-30 bg-gray-950/50 transition duration-500 dark:bg-gray-950/75 lg:hidden"
         ></div>
+        
+        @if (filament()->auth()->check())
+            <div
+                class="absolute end-0 top-0 flex h-16 items-center gap-x-4 pe-4 md:pe-6 lg:pe-8"
+            >
+                @if (filament()->hasDatabaseNotifications())
+                    @livewire(Filament\Livewire\DatabaseNotifications::class, ['lazy' => true])
+                @endif
+
+                <x-filament-panels::user-menu />
+            </div>
+        @endif
+
+        @php
+            /*
 
         <x-filament-panels::sidebar :navigation="$navigation" />
 
@@ -40,7 +55,8 @@
             ])
         >
             <x-filament-panels::topbar :navigation="$navigation" />
-
+             */ 
+             @endphp
             <main
                 @class([
                     'fi-main mx-auto h-full w-full px-4 md:px-6 lg:px-8',
