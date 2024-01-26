@@ -32,4 +32,8 @@ package-lock.json
 package-lock.json
 .git-rewrite/
 .php-cs-fixer.cache
+<<<<<<< HEAD
 >>>>>>> 635294d (.)
+=======
+node_modules
+>>>>>>> 928a810 (up)
