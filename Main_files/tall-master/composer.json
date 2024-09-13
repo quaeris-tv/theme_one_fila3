@@ -31,12 +31,12 @@
             "email": "support@ryangjchandler.co.uk"
         }
     ],
-    "require": {
+    "require_comment": {
         "php": "^8.1",
         "laravel/ui": "^4.2",
         "illuminate/support": "^10.0"
     },
-    "require-dev": {
+    "require-dev_comment": {
         "phpunit/phpunit": "^9.5.10"
     },
     "autoload": {
