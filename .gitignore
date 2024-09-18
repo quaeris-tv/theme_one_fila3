@@ -1,1 +1,3 @@
 node_modules
+.git-blame-ignore-revs
+.php-cs-fixer.cache
