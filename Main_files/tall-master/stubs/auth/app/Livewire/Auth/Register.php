@@ -3,7 +3,7 @@
 namespace App\Livewire\Auth;
 
 use App\Providers\RouteServiceProvider;
-use App\Models\User;
+use Modules\User\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Auth\Events\Registered;
