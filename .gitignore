@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 *:Zone.Identifier
 .php-cs-fixer.cache
+=======
+**/*.Zone.Identifier
+>>>>>>> c95d484 (up)
